@@ -26,4 +26,9 @@ Both services requires appropriate security controls
 
 ## Recommendations
 Restrict unnecessary network exposure
-Ensure 
+Ensure SMBv1 is disabled if not required
+Keep Windows security updates current
+Review firewall rules
+
+## Conclusion 
+The scan successfully identified two open TCP ports on the local Windows computer.
