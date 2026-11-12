@@ -37,17 +37,8 @@ Observation:
 	3.	The response contained the page title “Example Domain”.
 	4.	The website content was returned to the Command Prompt rather than displayed as a formatted webpage.
 
-Exercise 3: TCP Traffic
-Wireshark display filter:
-tcp
-
-Purpose:
-To observe TCP communication.
-
-Observation:
-
-
-Exercise 4: HTTPS Traffic
+	
+Exercise 3: HTTPS Traffic
 Wireshark display filter:
 tcp.port == 443
 
@@ -55,6 +46,13 @@ Purpose:
 To identify TCP traffic using port 443.
 
 Observation:
+	1.	The local computer IP address observed was 192.168.43.230.
+	2.	An external IP address observed was 140.82.121.3.
+	3.	TCP port 443 was used for HTTPS communication.
+	4.	The local computer used an ephemeral port, 31349, for communication.
+	5.	Wireshark identified TLSv1.2 Application Data packets.
+	6.	FIN, ACK and RST, ACK packets were also observed.
+	7.	A TCP retransmission was visible in the capture.
 
 
 **Conclusion**
