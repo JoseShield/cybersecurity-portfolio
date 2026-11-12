@@ -51,7 +51,7 @@ Purpose:
 To observe TCP communication.
 
 Observation:
-[Describe the TCP packets you observed.]
+
 
 Exercise 4: HTTPS Traffic
 
@@ -63,7 +63,7 @@ Purpose:
 To identify TCP traffic using port 443.
 
 Observation:
-[Describe what you observed.]
+
 
 Conclusion
 
